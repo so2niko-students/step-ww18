@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <form action="index.php" method="post">
+        <div class="form-group">
+            <label for="exName">Full Name</label>
+            <input type="text" class="form-control" id="exName" aria-describedby="nameHelp" placeholder="Enter name" name="fName">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="exDate">BirthDate</label>
+            <input type="date" class="form-control" id="exDate" aria-describedby="bd" placeholder="Enter bd" name="bd">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>

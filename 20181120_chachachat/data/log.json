@@ -1,0 +1,50 @@
+[
+  {
+    "name" : "Nick",
+    "time" : "19:04:12",
+    "color" : "#34f3ea",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae blanditiis debitis, delectus dicta dolor dol"
+  },
+  {
+    "name" : "Nick",
+    "time" : "19:05:12",
+    "color" : "#3400ea",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae blanditiis debitis, delectus dicta dolor dol"
+  },
+  {
+    "name" : "Nick",
+    "time" : "19:06:02",
+    "color" : "#34f3ea",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae blanditiis debitis, delectus dicta dolor dol"
+  },
+  {
+    "name" : "Anjella",
+    "time" : "19:07:22",
+    "color" : "#a4ffea",
+    "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae blanditiis debitis, delectus dicta dolor dol"
+  },
+  {
+    "name" : "Bogdan",
+    "time" : "19:09:52",
+    "color" : "#000000",
+    "text" : "Hello, Hello"
+  },
+  {
+    "name" : "Pavel",
+    "time" : "19:10:00",
+    "color" : "#00ff00",
+    "text" : "Hello, Bogdan"
+  },
+  {
+    "name" : "Alex",
+    "time" : "21:04:20",
+    "color" : "#ddff00",
+    "text" : "Olalala"
+  },
+  {
+    "name" : "Alex",
+    "time" : "21:04:20",
+    "color" : "#000000",
+    "text" : "Та шо угоднонапишите"
+  }
+]
