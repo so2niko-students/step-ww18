@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie</title>
+</head>
+<body>
+    <script src="cookie.js"></script>
+    <script>
+        let time1 = (new Date()).toUTCString();
+        console.log(time1);
+
+        document.cookie = `el1=Kyiv; expires=${time1};path=/`;
+        console.log(document.cookie);
+    
+    
+    </script>
+</body>
+</html>

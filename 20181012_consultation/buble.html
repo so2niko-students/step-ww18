@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buble</title>
+    <style>
+        div,p{
+            padding: 100px;
+            border: 5px solid grey;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two">
+            <div class="three">
+                <p class="four">
+                    <img src="https://i.citrus.ua/uploads/bananas/5aaa4b2c6972b.png" alt="apple">
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showClass(ev){
+            console.log("showClass",this, ev.target);
+        }
+
+        function changeBorder(){
+            let colors = ["red", 'blue', "orange", "wheat"];
+            this.style.borderColor = colors[Math.floor(Math.random()*4)];
+
+            console.log("changeBorder");
+        }
+    
+        document.querySelector('.one').addEventListener('click', showClass, true);
+        document.querySelector('.three').addEventListener('click', changeBorder);
+    </script>
+</body>
+</html>

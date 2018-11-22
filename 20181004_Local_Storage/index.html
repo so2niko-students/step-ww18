@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <style>
+        .sendForm{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="sendForm">
+        <input type="text" autofocus value="name">
+        <input type="text" value="value">
+        <button class="btn-send">Send</button>
+        <button class="btn-del">Delete</button>
+        <button class="btn-delAll">Delete All</button>
+    </div>  
+
+    <script>
+        //Запись в LS
+        document.querySelector('.btn-send').addEventListener('click',function(){
+            let inputCollection = document.querySelectorAll('.sendForm input'),
+                name = inputCollection[0].value,
+                value = inputCollection[1].value;
+            //Установка
+            localStorage.setItem(name, value);
+        });
+
+        //Удаление одной записи
+        document.querySelector('.btn-del').addEventListener('click',function(){
+            let inputCollection = document.querySelectorAll('.sendForm input'),
+                name = inputCollection[0].value;
+            //Удаление
+            localStorage.removeItem(name);
+        });
+
+        //Удаление всех записей
+        document.querySelector('.btn-delAll').addEventListener('click',function(){
+            localStorage.clear();
+        });
+
+        function showLocalStorage(){
+            //Возвращает количество элементов в ЛОкальном хранилище
+            let lsSize = localStorage.length;
+
+            while(lsSize--){
+                //По номеру возвращает ключ                По ключу возвращает значение
+                console.log(localStorage.key(lsSize), ": ", localStorage.getItem(localStorage.key(lsSize)));
+            }
+        }
+
+        showLocalStorage();
+
+        /*
+        длина
+            localStorage.length
+        считать элемент по значению (key)
+            localStorage.getItem(key)
+        Записать элемент (ключ/значение)
+            localStorage.setItem(key, value)
+        Удалить элемент по ключу
+            localStorage.removeItem(key)
+        Очистить весь LS
+            localStorage.clear()
+        Считать ключ по порядковому номеру(n)
+            localStorage.key(n)
+        */
+    
+    </script>
+</body>
+</html>
