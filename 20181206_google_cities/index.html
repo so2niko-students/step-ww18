@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Игра в Города</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+</head>
+<body class="columns">
+    <div class="column">
+        <div class="field">
+            <label class="label is-size-1 has-text-centered" for="in-city">ПОИСК ГОРОДА</label>
+            <div class="control">
+                <input class="is-large input" type="text" placeholder="Астана" id="in-city" autofocus>
+            </div>
+            <div class="control">
+                <button class="button is-info is-large is-fullwidth" id="btn-add">ДОБАВИТЬ</button>
+            </div>
+            <table class="table is-fullwidth is-hoverable is-striped">
+                <tr class="copy"><td class="in"></td></tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="app/google.js"></script>
+</body>
+</html>
