@@ -33,7 +33,7 @@ class Google{
         let url = 'city.php?city=' + this.getInput() + "&do=get";
         //let url = "cities.json";
 
-        fetch(url, this.fetchInit).then(function(r){return r.json()}).then((data) => goo.showCities(data));
+        fetch(url, this.fetchInit).then((r)=>{return r.json()}).then((data) => goo.showCities(data));
     }
 
     getInput(){
