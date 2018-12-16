@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23143847-6027-4569-9efe-da4e233ef8e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/20181216_cons_promise/component/Answ.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20181216_cons_promise/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20181216_cons_promise/view/app/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20181216_cons_promise/view/in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20181216_cons_promise/view/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20181206_google_cities/app/google.js" beforeDir="false" afterPath="$PROJECT_DIR$/20181206_google_cities/app/google.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20181206_google_cities/cities.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20181206_google_cities/components/Citiesdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/20181206_google_cities/components/Citiesdb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20181206_google_cities/components/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/20181206_google_cities/components/Router.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,40 +84,44 @@
     <session id="2097985086">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="js" value="1" />
+          <entry key="css" value="2" />
+          <entry key="html" value="2" />
+          <entry key="js" value="2" />
           <entry key="json" value="1" />
-          <entry key="php" value="8" />
+          <entry key="php" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="8" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PHP" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="3" />
+          <entry key="PHP Class.type" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="25" />
           <entry key="dummy" value="1" />
-          <entry key="html" value="222" />
-          <entry key="js" value="1204" />
+          <entry key="html" value="310" />
+          <entry key="js" value="1589" />
           <entry key="json" value="46" />
-          <entry key="php" value="3435" />
+          <entry key="php" value="3772" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="222" />
+          <entry key="CSS" value="25" />
+          <entry key="HTML" value="310" />
           <entry key="JSON" value="46" />
-          <entry key="JavaScript" value="1204" />
-          <entry key="PHP" value="3409" />
+          <entry key="JavaScript" value="1589" />
+          <entry key="PHP" value="3746" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SQL" value="26" />
         </counts>
@@ -125,7 +130,8 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.76" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -135,61 +141,37 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/20181206_google_cities/index.html">
+            <entry file="file://$PROJECT_DIR$/20181216_cons_promise/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+                <state relative-caret-position="85">
+                  <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/20181204_crud1/Crud.php">
+            <entry file="file://$PROJECT_DIR$/20181216_cons_promise/component/Answ.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="653">
-                  <caret line="102" column="50" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="50" />
-                  <folding>
-                    <element signature="e#6#88#0#PHP" expanded="true" />
-                    <element signature="n#__construct#0;n#Crud#0;n#!!top" />
-                    <element signature="n#createTable#0;n#Crud#0;n#!!top" />
-                    <element signature="n#showMsg#0;n#Crud#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="306">
+                  <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/20181216_cons_promise/view/in.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/20181206_google_cities/app/google.js">
+            <entry file="file://$PROJECT_DIR$/20181216_cons_promise/view/app/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/20181206_google_cities/city.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/20181206_google_cities/components/Router.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/20181206_google_cities/components/Citiesdb.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+                <state relative-caret-position="238">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
@@ -199,10 +181,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/20181206_google_cities/components/Citiesdb.php">
+            <entry file="file://$PROJECT_DIR$/20181216_cons_promise/view/style/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -214,9 +196,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -226,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/20181030/index2.html" />
-        <option value="$PROJECT_DIR$/20181030/index.php" />
         <option value="$PROJECT_DIR$/20181101 time, digits/one.php" />
         <option value="$PROJECT_DIR$/20181101_time_digits/one.php" />
         <option value="$PROJECT_DIR$/20181101_time_digits/two.php" />
@@ -273,6 +253,12 @@
         <option value="$PROJECT_DIR$/20181206_google_cities/components/Citiesdb.php" />
         <option value="$PROJECT_DIR$/20181206_google_cities/components/Router.php" />
         <option value="$PROJECT_DIR$/20181206_google_cities/app/google.js" />
+        <option value="$PROJECT_DIR$/20181216_cons_promise/in.html" />
+        <option value="$PROJECT_DIR$/20181216_cons_promise/index.php" />
+        <option value="$PROJECT_DIR$/20181216_cons_promise/view/in.html" />
+        <option value="$PROJECT_DIR$/20181216_cons_promise/view/style/main.css" />
+        <option value="$PROJECT_DIR$/20181216_cons_promise/view/app/main.js" />
+        <option value="$PROJECT_DIR$/20181216_cons_promise/component/Answ.php" />
       </list>
     </option>
   </component>
@@ -305,24 +291,7 @@
             <path>
               <item name="ww18" type="b2602c69:ProjectViewProjectNode" />
               <item name="ww18" type="462c0819:PsiDirectoryNode" />
-              <item name="20181204_crud1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ww18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ww18" type="462c0819:PsiDirectoryNode" />
-              <item name="20181206_google_cities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ww18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ww18" type="462c0819:PsiDirectoryNode" />
-              <item name="20181206_google_cities" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ww18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ww18" type="462c0819:PsiDirectoryNode" />
-              <item name="20181206_google_cities" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="20181216_cons_promise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,6 +309,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ww18\20181216_cons_promise\view" />
       <recent name="C:\xampp7\htdocs\ww18\20181113_files\view" />
     </key>
   </component>
@@ -377,16 +347,18 @@
       <workItem from="1543336058167" duration="6387000" />
       <workItem from="1543509394872" duration="2331000" />
       <workItem from="1544114907056" duration="8419000" />
+      <workItem from="1544979831804" duration="4043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70438000" />
+    <option name="totallyTimeSpent" value="74481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08795309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08848614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -406,6 +378,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08848614" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -414,41 +407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20181106_getpost/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20181106_getpost/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20181106_getpost/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20181108_array_string/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20181108_array_string/idiot/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20181108_array_string/idiot/css/main.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -654,6 +612,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/20181206_google_cities/cities.json" />
     <entry file="file://$PROJECT_DIR$/20181206_google_cities/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -661,16 +620,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20181206_google_cities/cities.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20181204_crud1/Crud.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
+        <state relative-caret-position="1360">
           <caret line="102" column="50" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="50" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
@@ -688,6 +640,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/20181206_google_cities/app/google.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/20181206_google_cities/components/Router.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -695,17 +654,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20181206_google_cities/app/google.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/20181206_google_cities/components/Citiesdb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20181216_cons_promise/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20181216_cons_promise/component/Answ.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20181216_cons_promise/view/in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20181216_cons_promise/view/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20181216_cons_promise/view/style/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
