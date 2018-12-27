@@ -39,8 +39,11 @@ class Citiesdb
 
             $this->connect->exec($squery);
 
+            echo "['$city добавлен']";
             return true;
         }
+
+        echo "['$city не добавлен']";
 
         return false;
     }
@@ -49,7 +52,21 @@ class Citiesdb
 
     public function getCities($cityName)
     {
+        $queryLike = "SELECT city FROM cities WHERE city LIKE '$cityName%' ORDER BY city";
+        $pre = $this->connect->prepare($queryLike);
+        
+        $pre->execute();
 
+        $pre->setFetchMode(PDO::FETCH_NUM);
+
+        $arr = $pre->fetchAll();
+
+        $arrAnsw = [];
+        foreach($arr as $name)
+        {
+            array_push($arrAnsw, $name[0]);
+        }
+        return $arrAnsw;
     }
 
     private function checkCity($city)

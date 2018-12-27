@@ -13,7 +13,7 @@ class Google{
         //Клик по кнопке Отправить
         document.querySelector('#btn-add').addEventListener('click', this.sendCity.bind(this));
         //Набор на клавиатуре
-        this.inCity.addEventListener('keydown', this.getCity.bind(this));
+        this.inCity.addEventListener('keyup', this.getCity.bind(this));
 
 
     }
@@ -22,7 +22,7 @@ class Google{
     sendCity(){
         let url = 'city.php?city=' + this.getInput() + "&do=insert";
 
-        fetch(url, this.fetchInit).then((respo) => console.log(respo.text()));
+        fetch(url, this.fetchInit).then((respo) => goo.showCities(respo.json()));
 
         this.inCity.value = "";
     }
@@ -33,7 +33,10 @@ class Google{
         let url = 'city.php?city=' + this.getInput() + "&do=get";
         //let url = "cities.json";
 
-        fetch(url, this.fetchInit).then((r)=>{return r.json()}).then((data) => goo.showCities(data));
+        fetch(url, this.fetchInit).then((r)=>{return r.json()}).then((data) => {
+            goo.showCities(data);
+            // console.log(data);
+        });
     }
 
     getInput(){

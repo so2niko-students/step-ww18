@@ -25,7 +25,7 @@ class Router
         $do = $_GET['do'];
 
         if(strlen($city) == 0){
-            echo '["Город пустой. Добавьте город"]';
+            echo '[]';
 
             return false;
         }
